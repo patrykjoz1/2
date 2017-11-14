@@ -15,15 +15,15 @@ int main()
   int *wspolczynniki;
   int stopien, argument;
  
-  cout<<"Podaj stopieñ wielomianu: ";
+  cout<<"Podaj stopieÃ± wielomianu: ";
   cin>>stopien;
  
   wspolczynniki = new int [stopien+1];
  
-  //wczytanie wspó³czynników
+  //wczytanie wspÃ³Â³czynnikÃ³w
   for(int i=0;i<=stopien;i++)
   {
-    cout<<"Podaj wspó³czynnik stoj¹cy przy potêdze "<<stopien-i<<": ";
+    cout<<"Podaj wspÃ³Â³czynnik stojÂ¹cy przy potÃªdze "<<stopien-i<<": ";
     cin>>wspolczynniki[i];
   }
  
@@ -36,4 +36,4 @@ int main()
   system("pause");
   return 0;
 }
- 
+ d
